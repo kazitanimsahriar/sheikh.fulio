@@ -1,0 +1,63 @@
+body {
+    font-family: 'Dancing Script', cursive; /* Fancy cursive font for headings */
+    margin: 0;
+    padding: 0;
+    color: #1e3102; /* Dark gray text color */
+    background-color: #f05806; /* Light gray background */
+  }
+  
+  .text-container { /* Container for centered content */
+    text-align: center;
+  }
+  
+  h1, h2, p {
+    margin: 1em 0; /* Add some margin for spacing */
+  }
+  
+  h1 {
+    font-size: 3em;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 2em;
+    letter-spacing: 1px; /* Add letter spacing for a more elegant look */
+  }
+  
+  .cover-section {
+    position: relative;
+    height: 50vh; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  .cover-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crop the cover photo to fit the section */
+  }
+  
+  .cover-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* Vertically center text within the cover section */
+    color: #fff; /* White color for the text */
+    text-align: center;
+  }
+  
+  header {
+    background-color: #ddd; /* Slightly lighter background for header */
+    padding: 10px 20px;
+    display: flex; /* Arrange logo and navigation horizontally */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Align vertically */
+  }
+  
+  .logo {
+    font-size: 2.5em; /* Adjust logo font size */
+    color: #ca6924; /* Dark orange color for logo */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Add subtle text shadow */
+  }
+  
+  nav {
+    background
+  
